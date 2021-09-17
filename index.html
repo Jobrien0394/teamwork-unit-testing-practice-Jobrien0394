@@ -20,11 +20,23 @@
   </head>
 
   <body>
-    <h1>Open the Developer Tools to see the console output.</h1>
-    <h3>
-      Either right click and select "Inspect" or use the shortcut Option + ⌘ + J
-      (on macOS), or Shift + CTRL + J (on Windows/Linux).
-    </h3>
-    <script src="code.js"></script>
-  </body>
-</html>
+    <h1 class="h1-title">Pig Latin translator</h1>
+    <div  class="body-container">
+      <section class="card">
+        <form>
+          <label    for  = "complaint_input">Input Text Here</label>
+          <textarea name = "complaint" id="complaint_input"
+             placeholder="Put Any Word Here!"></textarea>
+          <button id="submit">Submit</button>
+        </form>
+      </section>
+      <section class="card">
+        <form>
+          <label    for  = "complaint_output">Pig Latin Output</label>
+          <textarea name = "complaint" id="complaint_output"
+              placeholder="Empty" readonly=true></textarea>
+        </form>
+      </section>
+      <script src="code.js"></script>
+     </div>
+</body>
